@@ -7,7 +7,7 @@
     <router-link to="/categories">Categorías</router-link> |
     <router-link to="/products">Products</router-link>
   </nav>
-  <router-view />
+ <router-view />
 </template>
 
 <style>
