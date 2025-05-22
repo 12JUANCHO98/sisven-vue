@@ -20,7 +20,8 @@ const routes: Array<RouteRecordRaw> = [
     name: 'paymodes',
     component: () => import('@/paymodes/pages/index.vue')
   },
-  {
+ 
+   {
     path: '/categories',
     name: 'categories',
     component: () => import('@/categories/pages/index.vue')
