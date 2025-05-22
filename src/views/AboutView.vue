@@ -1,23 +1,37 @@
 <template>
-  <div class="about container ">
-    <h1 class="mb-3">Acerca de este taller</h1>
+   <div class="about container ">
+    <h1 class="mb-3">JUAN DAVID QUINONES S5AN</h1>
     <p>
-      Quería compartir en esta página mi motivación al realizar este taller de Vue y el enfoque que decidí darle. Como
-      ya llevo
-      más de un año trabajando con Vue en mi empleo, estoy familiarizado con los conceptos básicos del framework. Sin
-      embargo, vi en su taller una oportunidad para reforzar fundamentos, explorar buenas prácticas y, sobre todo,
-      <b>retarme a mí mismo</b>.
+     Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+     . Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+       Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+         In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+          Nullam dictum felis eu pede mollis pretium. Integer </b>.
     </p>
 
     <p>
-      Por eso, aunque el taller estaba planteado como una introducción, decidí añadirle un poco más de "picante" al
-      asunto: implementé el proyecto usando TypeScript. Mi objetivo era no solo repasar Vue, sino también profundizar en
-      cómo TypeScript mejora la escalabilidad y el mantenimiento del código, algo que aplico día a día en mi trabajo.
+       Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+        Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. 
+        Etiam rhoncus
     </p>
 
     <p>
-      Agradezco mucho el espacio para aprender y experimentar, y espero que este taller cumpla con sus expectativas y
-      requerimientos.
+      Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+       Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+       Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante
     </p>
-  </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
 </template>
