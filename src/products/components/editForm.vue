@@ -21,12 +21,8 @@
             </div>
             <div class="mb-3">
                 <label for="category_id" class="form-label">Categoría</label>
-                <Field class="form-select" name="category_id" as="select" v-model="categorySelected">
-                    <option value="" disabled>Seleccione una opción</option>
-                    <option v-for="category in props.categories" :key="category.id" :value="category.id">
-                        {{ category.name }}
-                    </option>
-                </Field>
+                <Field type="text" class="form-control" id="category_id" name="category_id" placeholder="Categoría"
+                    :value="props.info.category_id" />
                 <ErrorMessage name="category_id" class="text-danger" />
             </div>
             <div class="d-flex justify-content-end gap-2">
@@ -42,25 +38,19 @@ import axios from 'axios';
 import { Form, Field, ErrorMessage } from 'vee-validate';
 import { Product } from '@/products/types';
 import schema from '@/products/schemas'
-import { Category } from '@/categories/types';
-import { ref } from 'vue';
-import { confirmSucess } from '@/util';
 
 const emit = defineEmits<{
     (e: 'cancel'): void
     (e: 'save'): void
 }>();
 
-const props = defineProps<{ info: Product, categories: Category[] }>()
-
-const categorySelected = ref(props.info.category_id);
+const props = defineProps<{ info: Product }>()
 
 const onSubmit = (values: any) => {
     console.log('Valores del formulario:', values);
     axios.put(`http://127.0.0.1:8000/api/products/${props.info.id}`, values)
         .then(() => {
             emit('save')
-            confirmSucess();
         })
 };
 </script>
